@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>WebDev Suhaib!</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to My Landing Page</h2>
+      <p>I build fast, responsive websites using HTML & CSS.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h3>About Me</h3>
+      <p>I’m a web developer skilled in HTML and CSS. I create clean, mobile-friendly websites for individuals and small businesses.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h3>Services</h3>
+      <ul>
+        <li>✔️ Custom Landing Pages</li>
+        <li>✔️ Business Websites</li>
+        <li>✔️ Mobile-Responsive Design</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h3>Contact Me</h3>
+      <form action="https://formsubmit.co/mrwrong052@gmail.com" method="POST">
+        
+
+        <input type="hidden" name="_subject" value="New message from landing page!" />
+        <input type="hidden" name="_next" value="https://thank-you-page.com" /> <!-- Optional: redirect URL -->
+        <input type="hidden" name="_captcha" value="false" />
+
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
